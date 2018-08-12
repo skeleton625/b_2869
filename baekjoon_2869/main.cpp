@@ -11,3 +11,12 @@ int main() {
 	cout << v;
 	return 0;
 }
+
+/*
+#include <cstdio>
+int a, b, v;
+main(a,b,v){
+	scanf_s("%d%d%d",&a,&b,&v);
+	printf("%d", 1 + (v+~b) / (a-b) );
+}
+*/
